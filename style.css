@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Peralta', cursive;
 }
 h1{
@@ -15,4 +16,20 @@ font-size: 50px;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
 }
